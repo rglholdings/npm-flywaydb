@@ -1,0 +1,7 @@
+{
+  "name": "npm-flywaydb",
+  "description": "npm wrapper for flywaydb",
+  "author": "RGL Holdings Inc",
+  "version": "3.2.1",
+  "preferGlobal": "true"
+}
