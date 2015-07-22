@@ -3,5 +3,12 @@
   "description": "npm wrapper for flywaydb",
   "author": "RGL Holdings Inc",
   "version": "3.2.1",
-  "preferGlobal": "true"
+  "bin": {
+    "flyway": "./bin/flyway"
+  },
+  "main": "./lib/flyway-lib.js",
+  "preferGlobal": "true",
+  "dependencies": {
+    "app-root-path": "^1.0.0"
+  }
 }

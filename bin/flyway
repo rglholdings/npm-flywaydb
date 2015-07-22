@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var FlywayLib = require("../lib/flyway-lib.js");
+
+// Chop off the args we don't care about
+var args = process.argv.slice(2);
+
+FlywayLib.call(args);
